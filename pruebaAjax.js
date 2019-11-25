@@ -23,8 +23,8 @@ function crearTablaParaListar(personajes)
                                 </td>${personaje.eye_color}</td>
                             </tr>`;
         });
-        htmlFinal += `</tbody>
-                    </table>`;
+        htmlFinal += `</tbody>`
+        htmlFinal += `</table>`;
         return htmlFinal;
     }
     else
