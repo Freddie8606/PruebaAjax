@@ -14,8 +14,8 @@ function crearTablaParaListar(personajes)
                                 <th>Color Pelo</th>
                                 <th>Color Ojos</th>
                             </tr>
-                        </thead>
-                        <tbody>`;
+                        </thead>`;
+        htmlFinal += `<tbody>`;
         personajes.foreach(personaje => {
             htmlFinal +=  `<tr>
                                 <td>${personaje.name}</td>
