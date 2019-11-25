@@ -1,4 +1,8 @@
 const container = document.getElementById("container");
+
+      function crearUsuario(evento){
+        console.log(evento);
+      }
       function pintarTablaParaListar(usuarios) {
         if (usuarios && usuarios.length) {
           let htmlFinal = "";
@@ -9,7 +13,7 @@ const container = document.getElementById("container");
                           </tr>
                         </thead>`;
           htmlFinal += "<tbody>";
-          usuarios.forEach(personaje => {
+          usuarios.forEach(usuario => {
             htmlFinal += `<tr>
                           <td>${usuario.nombre}</td>
                           </tr>`;
